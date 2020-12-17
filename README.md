@@ -1,7 +1,7 @@
 <p align="center"><img src="https://blog.pleets.org/img/articles/paypal-sdk.png" height="150"></p>
 
 <p align="center">
-    <a href="https://travis-ci.com/payment-gateways/paypal-sdk"><img src="https://travis-ci.com/payment-gateways/paypal-sdk.svg?branch=master" alt="Build Status"></a>
+    <a href="https://travis-ci.com/leandroburgoa/ejemplo"><img src="https://travis-ci.com/leandroburgoa/ejemplo.svg?branch=master" alt="Build Status"></a>
     <a href="https://scrutinizer-ci.com/g/payment-gateways/paypal-sdk"><img src="https://img.shields.io/scrutinizer/g/payment-gateways/paypal-sdk.svg" alt="Code Quality"></a>
     <a href="https://scrutinizer-ci.com/g/payment-gateways/paypal-sdk/?branch=master"><img src="https://scrutinizer-ci.com/g/payment-gateways/paypal-sdk/badges/coverage.png?b=master" alt="Code Coverage"></a>
 </p>
@@ -31,7 +31,7 @@ Calculadora aritmetica básica.
 Suma dos numeros.
 
 ```php
-use Burgoa\Calculadora;
+use Libreria\Calculadora;
 
 $calculadora = new Calculadora();
 echo $calculadora->sumar(10, 5);
