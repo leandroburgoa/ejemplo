@@ -47,3 +47,11 @@ use Libreria\Calculadora;
 $calculadora = new Calculadora();
 echo $calculadora->restar(10, 5); // 5
 ```
+
+# Autor
+
+Libreria PHP fue creada por Leandro Burgoa (leandroburgoa@gmail.com).
+
+# Licencia
+
+Libreria PHP es un software de código abierto con licencia MIT.
