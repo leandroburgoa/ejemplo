@@ -1,0 +1,50 @@
+{
+	"name": "leandroburgoa/ejemplo",
+    "description": "Libreria de Ejemplo",
+    "homepage": "https://github.com/leandroburgoa/ejemplo",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["PHP", "Libreria", "Ejemplo", "Burgoa", "Argentina"],
+	"authors": [
+		{
+			"name": "Leandro Burgoa",
+			"email": "leandroburgoa@gmail.com",
+			"homepage": "http://www.proyecto.com.ar",
+			"role": "Programador de Software"
+		}
+	],
+	"require": {
+        "php": ">=7.2",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-zip": "*",
+        "ext-gd": "*",
+        "ext-hash": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^8.5"
+    },
+	"autoload": {
+		"psr-4": {
+			"Libreria\\": "src/"
+		}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "phpunit": "phpunit --stop-on-error --stop-on-failure --testdox",
+        "phpunit-xml": "phpunit --stop-on-error --stop-on-failure --coverage-clover phpunit.coverage.xml",
+        "phpcs-check":  "phpcs --colors -s",
+        "phpcs-fix":  "phpcbf --colors -s",
+        "phpcs-auto-check": "@phpcs-check --standard=.phpcs.xml",
+        "phpcs-auto-fix": "@phpcs-fix --standard=.phpcs.xml",
+        "phpcs-auto-check-project": "phpcs --report=summary -p",
+        "phpcs-auto-fix-project": "phpcbf --report=summary -p"
+    }
+}
