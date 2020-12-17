@@ -1,9 +1,9 @@
 <p align="center"><img src="https://blog.pleets.org/img/articles/paypal-sdk.png" height="150"></p>
 
 <p align="center">
-    <a href="https://travis-ci.com/leandroburgoa/ejemplo"><img src="https://travis-ci.com/leandroburgoa/ejemplo.svg?branch=master" alt="Build Status"></a>
+    <a href="https://travis-ci.com/leandroburgoa/ejemplo"><img src="https://travis-ci.com/leandroburgoa/ejemplo.svg?branch=main" alt="Build Status"></a>
     <a href="https://scrutinizer-ci.com/g/leandroburgoa/ejemplo"><img src="https://img.shields.io/scrutinizer/g/leandroburgoa/ejemplo.svg" alt="Code Quality"></a>
-    <a href="https://scrutinizer-ci.com/g/leandroburgoa/ejemplo/?branch=master"><img src="https://scrutinizer-ci.com/g/leandroburgoa/ejemplo/badges/coverage.png?b=master" alt="Code Coverage"></a>
+    <a href="https://scrutinizer-ci.com/g/leandroburgoa/ejemplo/?branch=master"><img src="https://scrutinizer-ci.com/g/leandroburgoa/ejemplo/badges/coverage.png?b=main" alt="Code Coverage"></a>
 </p>
 
 # Ejemplo PHP V0.0.1
