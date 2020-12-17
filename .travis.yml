@@ -1,0 +1,24 @@
+language: php
+
+php:
+  - 7.4
+
+cache:
+  directories:
+    - vendor
+
+before_script:
+  ## Packages
+  - sudo apt-get -qq update > /dev/null
+  ## Composer
+  - composer self-update
+  - composer install --prefer-source --dev --no-interaction
+
+script:
+  ## PHP Code Sniffer
+  - composer phpcs-auto-check-project
+  ## PHP Unit
+  - composer phpunit
+
+notifications:
+  email: false
